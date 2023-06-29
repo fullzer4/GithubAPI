@@ -4,7 +4,7 @@
     <input type="text" v-model="userName" placeholder="github username">
     <button @click="fetchUser">Buscar</button>
 
-    <UserInfo/>
+    <UserInfo ref="UserInfo"/>
   </div>
 </template>
 
@@ -27,5 +27,4 @@ export default {
     }
   }
 };   
-}
 </script>
